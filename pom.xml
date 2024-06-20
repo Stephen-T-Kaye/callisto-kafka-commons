@@ -19,7 +19,9 @@
         <jackson.version>2.14.2</jackson.version>
         <micrometer.version>1.10.5</micrometer.version>
         <checkstyle-maven-plugin.version>3.2.0</checkstyle-maven-plugin.version>
-        <sonar.organization>ukhomeoffice</sonar.organization>
+        <sonar.organization>stephen-t-kaye</sonar.organization>
+        <sonar.projectKey>stephen-t-kaye_callisto-kafka-commons</sonar.projectKey>
+        <sonar.projectName>stephen-t-kaye_callisto-kafka-commons</sonar.projectName>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
@@ -229,7 +231,7 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <url>https://maven.pkg.github.com/UKHomeOffice/callisto-kafka-commons</url>
+            <url>https://maven.pkg.github.com/stephen-t-kaye/callisto-kafka-commons</url>
         </repository>
     </distributionManagement>
 </project>
